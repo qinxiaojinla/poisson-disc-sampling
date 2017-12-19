@@ -133,13 +133,3 @@ class Grid:
 
 def data_processing(items):
     return ([item[i] for item in items] for i in range(len(items[0])))
-
-def power_spec_points_processing(items):
-    power_spec = []
-    for i in range(len(items[0])):
-        for item in items:
-            power_spec.append(item)
-    return power_spec
-
-
-
